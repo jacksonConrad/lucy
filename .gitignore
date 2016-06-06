@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 include/
 share/
 lib/
 bin/
+=======
+# Elastic Beanstalk Files
+
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+node_modules/*
+>>>>>>> qa-conv

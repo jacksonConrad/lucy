@@ -1,0 +1,25 @@
+directory: ~/beets
+library: ~/beets/data/musiclibrary.blb
+import:
+    move: yes
+    copy: no
+    write: yes
+plugins: 
+    - fetchart 
+    - lyrics
+    - web
+    - discogs 
+    - fromfilename 
+    - scrub
+    - ftintitle # moves featured artist to title
+    - keyfinder
+    - duplicates
+    - play
+scrub:
+    auto: no
+keyfinder:
+    auto: yes
+    bin: /opt/homebrew-cask/Caskroom/keyfinder/2.1/KeyFinder-OSX/KeyFinder.app
+    overwrite: no
+play:
+    command: /Applications/VLC.app/Contents/MacOS/VLC

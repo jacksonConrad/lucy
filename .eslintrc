@@ -1,0 +1,16 @@
+{
+  "env": {
+    "jasmine": true,
+    "jquery": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "wrap-iife": [
+      1,
+      "inside"
+    ],
+    "func-names": 0,
+    "no-use-before-define": ["error", "nofunc"],
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}
